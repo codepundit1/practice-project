@@ -9,6 +9,20 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Project</title>
+
+
+    <style>
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://as1.ftcdn.net/jpg/09/31/33/76/1000_F_931337685_0uLvtIV5MCoMBBS35HeJepj6HyVRgwun.jpg');
+
+            height: 80vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,7 +41,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Product Page</a>
                     </li>
                     </li>
@@ -35,11 +49,18 @@
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
-          
+
             </div>
         </div>
     </nav>
 
+
+    <div class="hero-section d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <h1 class="text-white">This is Hero Section</h1>
+            <button class="btn btn-primary mt-2">Click Here</button>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
